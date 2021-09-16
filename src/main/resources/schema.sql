@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS ACCOUNT;
+ 
+CREATE TABLE ACCOUNT (
+  account_number VARCHAR(50) PRIMARY KEY,
+  balance float NOT NULL
+);
